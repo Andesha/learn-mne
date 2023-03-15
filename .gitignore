@@ -1,0 +1,7 @@
+misc/*.sfp
+misc/*.elc
+misc/*.mat
+
+sourcedata/*.bdf
+
+face13
