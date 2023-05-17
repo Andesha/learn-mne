@@ -5,6 +5,8 @@ WORKDIR /root
 
 COPY MATLAB_Runtime_R2021a_Update_8_glnxa64.zip .
 
+VOLUME ["/input", "/output"]
+
 RUN apt update -y
 RUN apt upgrade -y
 RUN apt install -y build-essential unzip nano git openjdk-8-jre
