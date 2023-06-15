@@ -1,7 +1,7 @@
 # Install the base requirements for the app.
 # This stage is to support development.
 FROM ubuntu:latest
-WORKDIR /root
+WORKDIR /Brainstorm
 
 COPY MATLAB_Runtime_R2021a_Update_8_glnxa64.zip .
 
